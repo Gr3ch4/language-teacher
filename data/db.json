@@ -1,16 +1,116 @@
 {
-    "words": [
-        {
-            "word": "lamp",
-            "translation": "Лампа"
-        },
-        {
-            "word": "chair",
-            "translation": "Стул"
-        },
-        {
-            "word": "table",
-            "translation": "Стол"
-        }
-    ]
+  "words": [
+    {
+      "word": "lamp",
+      "translation": "Лампа"
+    },
+    {
+      "word": "chair",
+      "translation": "Стул"
+    },
+    {
+      "word": "table",
+      "translation": "Стол"
+    },
+    {
+      "id": "eba3",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "44c9",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "37e3",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "7c9a",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "cd3f",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "88c5",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "7d9e",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "e39c",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "0eef",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "0afa",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "9505",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "86d5",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "fa48",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "1fa4",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "6cad",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "ef5d",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "bcb3",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "1da4",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "e002",
+      "newWord": "",
+      "translation": ""
+    },
+    {
+      "id": "0e55",
+      "newWord": "",
+      "translation": ""
+    }
+  ]
 }

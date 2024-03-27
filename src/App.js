@@ -13,12 +13,14 @@ import table from './img/table.svg'
 
 // import required modules
 import { Navigation } from 'swiper/modules';
+import CreateNewWord from './components/CreateNewWord';
 
 const images = {
   lamp: lamp,
   chair: chair,
   table: table
 };
+
 
 const onSpeech = (e) => {
   const speechWord = document.querySelector('.swiper-slide-active b').textContent
@@ -30,9 +32,24 @@ const onSpeech = (e) => {
 
 
 export default function App() {
+  const [openModal, setOpenModal] = useState(false)
   const { data, isPending, error} = useFetch('http://localhost:8000/words')
+
+  const onShowModal = () => {
+    setOpenModal(true)
+  }
+  
+  const onCloseModal = () => {
+    setOpenModal(true)
+  }
+  
+
   return (
     <div className='App'>
+      <CreateNewWord 
+        isOpen={openModal}
+        onClose={onCloseModal}
+      />
       <button onClick={onSpeech} className='speech-btn'></button>
       <Swiper loop={true} navigation={true} modules={[Navigation]} className="swiper">
         {error && <p>{error}</p>}
@@ -47,6 +64,7 @@ export default function App() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <button onClick={onShowModal}>+</button>
     </div>
   );
 }
